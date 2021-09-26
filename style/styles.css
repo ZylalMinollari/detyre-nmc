@@ -1,0 +1,127 @@
+.bigText {
+  padding: 10px;
+  margin: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+}
+
+.mediumText {
+  padding: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  text-align: left;
+}
+
+.text {
+  padding: 5px;
+  font-family: Verdana;
+  font-size: 16px;
+  color: black;
+}
+
+input {
+  width: 100%;
+  margin: auto;
+}
+
+input[type="text"] {
+  padding: 8px 5px;
+  font-family: Verdana;
+  box-sizing: border-box;
+}
+
+input[type="select"] {
+  padding: 8px 5px;
+  font-family: Verdana;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 25%;
+  padding: 15px;
+  margin: 0 auto 0 auto;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.formButton {
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px 0 0 20px;
+  color: white;
+  background-color: #333;
+  border: 1px solid white;
+}
+
+.formButton:hover {
+  background-color: #ff7f50;
+}
+
+.message {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  font-family: Verdana;
+  color: black;
+}
+
+#styledtable {
+  margin: 20px 0;
+  font-family: Verdana;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#styledtable td,
+#styledtable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#styledtable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#styledtable tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+#styledtable tr:hover {
+  background-color: #ddd;
+}
+
+#styledtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff7f50;
+  color: white;
+}
+
+.combobox {
+  font-family: Verdana;
+  padding: 10px;
+  font-size: 16px;
+  height: 34px;
+}
+
+select {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid black;
+}
